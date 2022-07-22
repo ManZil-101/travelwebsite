@@ -830,6 +830,19 @@ section {
     }
 }
 
+#preloader {
+    background: #111 url(../images/travel/perfect.gif) no-repeat center center;
+    background-size: 8%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+
+
+
+
 @media (max-width: 768px) {
     #menu-btn {
         display: inline-block;
