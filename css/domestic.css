@@ -1,0 +1,67 @@
+.domestic {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+
+.domestic .box-container .box .content h3 {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.domestic .box-container .box .content p {
+    padding: 1rem 0;
+    font-size: 1.4rem;
+    color: #aaa;
+    line-height: 2;
+}
+
+.domestic .box-container .box .content span {
+    color: #fcfcfc;
+    font-size: 1.7rem;
+}
+
+.domestic .box-container .box .content a {
+    font-size: 1.7rem;
+    color: #29d9d5;
+}
+
+.domestic .box-container .box .content a:hover i {
+    padding-left: 1rem;
+}
+
+.domestic .box-container .box .content a i {
+    padding-right: .5rem;
+}
+
+.domestic .content {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 42rem;
+    flex: 1 1 42rem;
+    margin-bottom: 5rem;
+}
+
+.domestic .content span {
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+.domestic .content h3 {
+    color: rgb(248, 247, 242);
+    font-size: 4rem;
+    margin-top: .5rem;
+}
+
+.domestic .content p {
+    padding: 1rem 0;
+    font-size: 1.4rem;
+    color: #aaa;
+    line-height: 2;
+}
