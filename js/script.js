@@ -14,3 +14,10 @@ document.querySelectorAll('.about .video-container .controls .control-btn').forE
         document.querySelector('.about .video-container .video').src = src;
     }
 })
+
+var loader = document.getElementById("preloader");
+window.addEventListener("load", function() {
+    loader.style.display = "none";
+
+
+})
